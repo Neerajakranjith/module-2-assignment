@@ -21,14 +21,15 @@ section{
 }
 	div{
 	position:relative;
-	left:333px;
+	left:75%;
 	font-size: 125%;
 	background-color: pink;
-	width:100px;
+	width:25%;
 	text-align: center;
 	border-left: 2px solid black;
 	border-bottom:2px solid black;
 	border-right: 2px solid black;
+	border-right: 0;
 
 }
 #p1{
@@ -53,7 +54,8 @@ section{
 	 margin-left: 20px;
 	 float:left;
 	 width: 30%;
-	 height:170px;
+	 height:auto;
+
 	}
 }
 @media(min-width: 768px) and (max-width: 991px){
@@ -62,12 +64,13 @@ section{
         width:40%;
         margin-bottom:50px;
         margin-right: 50px;
-        height:70%;
+        height:100%;
 	}
 div{
 	position:relative;
-	left:252px;
+	left:70%;
 	border-right:0;
+	width: 30%;
 }
 .highlight {
 	width:100%;
@@ -76,7 +79,8 @@ div{
 }
 .highlight>div{
 	position: relative;
-	left: 785px;
+	left: 80%;
+	width:20%;
 }
 }
 @media(max-width: 767px){
@@ -87,6 +91,7 @@ section{
 	}
 div{
 	position:relative;
-	left:502px;
+	left:60%;
+	width:40%;
 }
 }
