@@ -1,0 +1,92 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin-left:50px;
+	padding:0;
+}
+
+h1{
+	text-align: center;
+	font-size:175%;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	margin-bottom:30px;
+	
+}
+section{
+	font-family:"Comic Sans MS", cursive, sans-serif; 
+	box-sizing: border-box;
+	background-color: gray;
+	border:2px solid black;
+}
+	div{
+	position:relative;
+	left:333px;
+	font-size: 125%;
+	background-color: pink;
+	width:100px;
+	text-align: center;
+	border-left: 2px solid black;
+	border-bottom:2px solid black;
+	border-right: 2px solid black;
+
+}
+#p1{
+	padding:  10px;
+}
+
+#p2{
+	padding: 10px  ;
+}
+#p3{
+	padding:  10px ;
+}
+#box{
+	background-color: #A52A2A;
+   
+}
+#carton{
+	background-color: #DEB887;
+}
+@media(min-width: 992px){
+section{
+	 margin-left: 20px;
+	 float:left;
+	 width: 30%;
+	 height:170px;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+section{
+        float:left;
+        width:40%;
+        margin-bottom:50px;
+        margin-right: 50px;
+        height:70%;
+	}
+div{
+	position:relative;
+	left:252px;
+	border-right:0;
+}
+.highlight {
+	width:100%;
+	
+
+}
+.highlight>div{
+	position: relative;
+	left: 785px;
+}
+}
+@media(max-width: 767px){
+section{
+	width:100%;
+	margin-bottom:50px;
+
+	}
+div{
+	position:relative;
+	left:502px;
+}
+}
